@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.image-container img {
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    border: 1px solid blue;
+}
+
+.info-container {
+    border-radius: 20px;
+    border: 1px solid blue;
+    padding: 20px;
+}
